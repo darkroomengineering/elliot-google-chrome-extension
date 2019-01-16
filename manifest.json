@@ -1,0 +1,23 @@
+{
+  "version": "1.0.1",
+  "name": "Elliot Campaigns Chrome Extension",
+  "manifest_version": 2,
+  "description": "Elliot's Google Chrome extension allows users to search and share campaigns from within the browser.",
+  "browser_action": {
+    "default_title": "Elliot Campaigns Chrome Extension",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "img/logo-purple.png",
+    "48": "img/logo-purple.png",
+    "128": "img/logo-purple.png"
+  },
+  "web_accessible_resources": [
+    "inject.html"
+  ],
+  "background": {
+    "page": "background.html"
+  },
+  "permissions": [ "contextMenus", "tabs", "storage", "https://github.com/*" ],
+  "content_security_policy": " script-src 'self'; style-src * 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:;"
+}
