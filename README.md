@@ -11,3 +11,5 @@ Currently this is simply Google's boilerplate template with some branded element
 
 1. User authentication
 2. Search API to return a filterable list of campaigns and their details
+
+Google Chrome's Extension documentation: https://developer.chrome.com/extensions
