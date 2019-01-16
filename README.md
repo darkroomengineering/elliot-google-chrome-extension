@@ -1,1 +1,1 @@
-# elliot-google-chrome-extension
+# Elliot Google Chrome Extension
