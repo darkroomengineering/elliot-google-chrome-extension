@@ -18,6 +18,6 @@
   "background": {
     "page": "background.html"
   },
-  "permissions": [ "contextMenus", "tabs", "storage", "https://github.com/*" ],
-  "content_security_policy": " script-src 'self'; style-src * 'unsafe-inline'; img-src 'self' data:; font-src 'self' data:;"
+  "permissions": [ "contextMenus", "tabs", "storage", "https://github.com/*", "https://admin.elliot.store/api" ],
+  "content_security_policy": " script-src 'self' http://localhost:3000 https://localhost:3000 https://admin.elliot.store/api 'unsafe-eval'; connect-src http://localhost:3000 https://localhost:3000 https://admin.elliot.store/api; style-src * 'unsafe-inline' 'self' blob:; img-src 'self' data:; font-src 'self' data:;"
 }
