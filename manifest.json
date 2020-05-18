@@ -1,10 +1,10 @@
 {
-  "version": "1.0.1",
-  "name": "Elliot Campaigns Chrome Extension",
-  "manifest_version": 2,
-  "description": "Elliot's Google Chrome extension allows users to search and share campaigns from within the browser.",
+  "version": "2.0",
+  "name": "Elliot's Google Chrome Extension",
+  "manifest_version": 3,
+  "description": "Elliot's Google Chrome extension allows users to search and share products from within the browser.",
   "browser_action": {
-    "default_title": "Elliot Campaigns Chrome Extension",
+    "default_title": "Elliot's Google Chrome Extension",
     "default_popup": "popup.html"
   },
   "icons": {
