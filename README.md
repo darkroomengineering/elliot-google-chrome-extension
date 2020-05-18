@@ -1,5 +1,5 @@
 # Elliot Google Chrome Extension
-Elliot's Google Chrome extension allows users to search and share campaigns from within the browser.
+Elliot's Google Chrome extension allows users to search and share products from within the browser.
 
 ##### Installation
 
@@ -9,8 +9,8 @@ Elliot's Google Chrome extension allows users to search and share campaigns from
 
 ##### To-do's
 
-1. Add create a campaign
-2. Add multi-select download for QR Code campaigns
+1. Add create a product from the browser extension
+2. Add multi-select download for product QR Codes
 
 Google Chrome's Extension documentation: https://developer.chrome.com/extensions
 
